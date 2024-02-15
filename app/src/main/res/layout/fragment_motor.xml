@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="বাম মোটরের সেটাপ\n1. বামপাশের মোটরটির তার দুটি প্রথমে ৪-৬ভোল্টের যেকোন ব্যাটারীর সাথে যুক্ত করে ঠিক আছে কি না চেক করে নিন।\n2.মোটরটি সঠিকভাবে চললে তার দুটি ইজিয়ার প্রো এর A এবং B টার্মিনালে লাগান এবং নিচের বাটন গুলো দিয়ে সামনে পিছনে ঘুরিয়ে দেখুন।"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ডান মোটরের সেটাপ\n
+1. ডানপাশের মোটরটির তার দুটি প্রথমে ৪-৬ভোল্টের যেকোন ব্যাটারীর সাথে যুক্ত করে ঠিক আছে কি না চেক করে নিন।\n2.মোটরটি সঠিকভাবে চললে তার দুটি ইজিয়ার প্রো এর C এবং D টার্মিনালে লাগান এবং নিচের বাটন গুলো দিয়ে সামনে পিছনে ঘুরিয়ে দেখুন।"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/motorUp1Btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="সামনে"/>
+        <Button
+            android:id="@+id/motorUp2Btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="সামনে"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/motorDown1Btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="পিছনে"
+            android:layout_margin="15dp"/>
+        <Button
+            android:id="@+id/motorDown2Btn"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="পিছনে"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3. যদি বাটন কমান্ডের মত কাজ করে তবে আপনার বাম পাশের মোটর সেটাপ ঠিক আছে।\n4.যদি বাটন কমান্ড মত কাজ না করে বিপরীত কাজ করে তবে ইজিয়ার প্রোতে লাগানো A এবং B প্রান্তের তার দুটির প্রোলারিটি চেঞ্জ করে দিন এবং পুণরায় চেষ্টা করুন।"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3. যদি বাটন কমান্ডের মত কাজ করে তবে আপনার ডান পাশের মোটর সেটাপ ঠিক আছে।\n4.যদি বাটন কমান্ড মত কাজ না করে বিপরীত কাজ করে তবে ইজিয়ার প্রোতে লাগানো D এবং C প্রান্তের তার দুটির প্রোলারিটি চেঞ্জ করে দিন এবং পুণরায় চেষ্টা করুন।"/>
+
+
+    </LinearLayout>
+</LinearLayout>

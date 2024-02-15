@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/moreApp"
+        android:title="More app"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuDev"
+        android:title="Develper"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menuAbout"
+        android:title="About"
+        app:showAsAction="never"/>
+
+</menu>

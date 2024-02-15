@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306225660369",
+    "project_id": "easier-study",
+    "storage_bucket": "easier-study.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306225660369:android:5094e6a834489efbeb20f0",
+        "android_client_info": {
+          "package_name": "com.blogspot.rajbtc.easierstudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306225660369-o87kbvjt3l7dtlvukpsom97s5jsdpn9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhxc01WKH2cPpFkr2N3xUA-ClCLcEzTaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306225660369-o87kbvjt3l7dtlvukpsom97s5jsdpn9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
